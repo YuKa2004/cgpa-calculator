@@ -1,0 +1,43 @@
+
+body{
+    background-color: #27374D;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+}
+#cont{
+    margin-top:250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#buttoncont{
+    display: flex; 
+    justify-content: center;
+}
+#button1{
+    padding: 20px;  
+}
+#button2{
+      padding: 20px;
+}
+button:hover{
+    transition: all ease-in 500ms ;
+    background-color: red;
+}
+button{
+    background-color: rgb(24, 194, 24);
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 0 3px #666;  
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}

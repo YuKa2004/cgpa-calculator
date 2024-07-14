@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sgpa.css">
+    <script src="sg.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="text">
+    <h1>SGPA Calculator</h1>
+    
+    </div>
+    <div id="semester">
+        <h3>Select your semester</h3>
+        <button type="button" id="b1" onclick="selBra(b1)">Physics cycle</button><br><br>
+        <button type="button" id="b2" onclick="selBra(b2)">Chemistry cycle</button><br><br>
+        <button type="button" id="b3" onclick="selBra(b3)">3rd semester</button><br><br>
+        <button type="button" id="b4" onclick="selBra(b4)">4th semester</button><br><br>
+        <button type="button" id="b5" onclick="selBra(b5)">5th semester</button><br><br>
+        <button type="button" id="b6" onclick="selBra(b6)">6th semester</button><br><br>
+        <button type="button" id="b7" onclick="selBra(b7)">7th semester</button><br><br>
+        <button type="button" id="b8" onclick="selBra(b8)">8th semester</button><br><br>
+    </div>
+    <div id="branch">
+        <p>Select your branch</p>
+        <button type="button" id="c1" onclick="selStr(c1)">CS/IS/AI</button><br><br>
+        <button type="button" id="c2" onclick="selStr(c2)">ECE</button><br><br>
+        <button type="button" id="c3" onclick="selStr(c3)">EEE</button><br><br>
+        <button type="button" id="c4" onclick="selStr(c4)">Civil Engg</button><br><br>
+        <button type="button" id="c5" onclick="selStr(c5)">Mech Engg</button><br><br>
+    </div>
+    <!-- <div id="stream">
+        <p>Select your stream</p>
+        <button type="button" id="d1" onclick="selFin(d1)">CS stream</button><br><br>
+        <button type="button" id="d2" onclick="selFin(d2)">Electrical</button><br><br>
+        <button type="button" id="d3" onclick="selFin(d3)">Civil Engg</button><br><br>
+        <button type="button" id="d4" onclick="selFin(d4)">Mech Engg</button><br><br>
+    </div> -->
+    <div id="display1">
+        <p>4 Credit course</p>
+        <input id="i1" type="number" placeholder="enter marks out of 100">
+        <p>4 Credit course</p>
+        <input id="i2" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i3" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i4" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i5" type="number" placeholder="enter marks out of 100">
+        <p>1 Credit course</p>
+        <input id="i6" type="number" placeholder="enter marks out of 100">
+        <p>1 Credit course</p>
+        <input id="i7" type="number" placeholder="enter marks out of 100">
+        <p>1 Credit course</p>
+        <input id="i8" type="number" placeholder="enter marks out of 100"><br><br>
+        <button type="button" onclick="SGPA1()">Calculate SGPA</button>
+    </div>
+    <div id="display2">
+        <p>4 Credit Course</p>
+        <input id="i1" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i2" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i3" type="number" placeholder="enter marks out of 100">
+        <p>3 credit course</p>
+        <input id="i4" type="number" placeholder="enter marks out of 100">
+        <p>3 credit course</p>
+        <input id="i5" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i6" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i7" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i8" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i9" type="number" placeholder="enter marks out of 100">
+        <br><br>
+        <button type="button" onclick="SGPA1()">Calculate SGPA</button>
+
+    </div>
+
+
+    
+    <div id="display3">
+        <p>4 Credit Course</p>
+        <input id="i1" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i2" type="number" placeholder="enter marks out of 100">
+        <p>3 Credit course</p>
+        <input id="i3" type="number" placeholder="enter marks out of 100">
+        <p>3 credit course</p>
+        <input id="i4" type="number" placeholder="enter marks out of 100">
+        <p>3 credit course</p>
+        <input id="i5" type="number" placeholder="enter marks out of 100">
+        <p>2 credit course</p>
+        <input id="i6" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i7" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i8" type="number" placeholder="enter marks out of 100">
+        <p>1 credit course</p>
+        <input id="i9" type="number" placeholder="enter marks out of 100">
+        <br><br>
+        <button type="button" onclick="SGPA1()">Calculate SGPA</button>
+
+    </div>
+    <div id="result">
+
+    </div>
+    
+</body>
+</html>

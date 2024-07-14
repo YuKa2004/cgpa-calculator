@@ -1,0 +1,52 @@
+body{
+    background-color: #27374D;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+}
+button:hover{
+    transition: all ease-in 500ms ;
+    background-color: red;
+}
+button{
+    background-color: rgb(62, 221, 62);
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 0 3px #666;  
+}
+#text{
+    text-align: center;
+    
+}
+#semester{
+    
+    text-align: center;
+    
+}
+#display1{
+    display: none;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+}
+#display2{
+    display: none;
+}
+#display3{
+    display: none;
+}
+#result{
+    padding:20px ;
+    text-align: center;
+}
+
+
+#branch{
+    display: none;
+}
+#stream{
+    display: none;
+}

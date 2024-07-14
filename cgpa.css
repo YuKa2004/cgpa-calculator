@@ -1,0 +1,40 @@
+body{
+    background-color: #27374D;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+#inputs{
+    height: 40px;
+    width: 150px;
+    border:solid;
+    border-radius: 15px;
+}
+input{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+}
+button{
+    background-color: rgb(24, 194, 24);
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 0 3px #666;
+}
+button:hover{
+    background-color: red;
+}
+#result{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+
+}
